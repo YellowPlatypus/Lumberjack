@@ -49,6 +49,11 @@
 
     <repositories>
         <repository>
+            <id>spigot-repo</id>
+            <name>Spigot Repository</name>
+            <url>https://hub.spigotmc.org/nexus/content/groups/public</url>
+        </repository>
+        <repository>
             <id>tealcube-repo</id>
             <name>Teal Cube Repositories</name>
             <url>http://maven.tealcube.com/artifactory/public</url>
