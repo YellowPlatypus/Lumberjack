@@ -47,6 +47,14 @@
         <tag>HEAD</tag>
     </scm>
 
+    <repositories>
+        <repository>
+            <id>tealcube-repo</id>
+            <name>Teal Cube Repositories</name>
+            <url>http://maven.tealcube.com/artifactory/public</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>com.google.guava</groupId>
