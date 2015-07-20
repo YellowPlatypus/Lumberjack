@@ -1,4 +1,3 @@
-package com.tealcube.minecraft.bukkit.lumberjack
 import ch.qos.logback.classic.encoder.PatternLayoutEncoder
 import ch.qos.logback.core.FileAppender
 
