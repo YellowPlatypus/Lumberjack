@@ -1,6 +1,9 @@
 language: java
 jdk:
 - oraclejdk7
-before_install:
-- wget https://gist.githubusercontent.com/Nunnery/2716c87ed5657884fcc2/raw/31c95c52d21d5b28c61c334da68618b4a7bdcca3/settings.xml -P target/maven/
-script: mvn clean deploy --settings target/maven/settings.xml
+script:
+- wget https://gist.githubusercontent.com/Nunnery/2716c87ed5657884fcc2/raw/2d7dcc0328a68eb624cdc13475834d179c24d255/settings.xml
+- mvn clean deploy --settings settings.xml
+env:
+  global:
+    secure: L2BZa/tRIaod/IXvhmOGryIooE163nv2FWrZ0wdIxWYZdRhsgVsR5aoPvZ5LiHf03LY2gqnFJKYIRj0Pixe5sQQzT5j2a2sx8Ivuglc+CDISDnWNrumEGghFlwYTSPEwPlLPqo7C3lgBVyWMBpzh0oMUUsfr6lv2tWZZCzEL/wtxeuxipcpjDqY/rtJOAnuHBVV4417YnjvxuJaMa5FkROjLFmmo+3u/yRbu881YazYOKRq6Bl6AP2bgiqYfuQ53iUrTID0ZRq4f5dSxKwowqj9+QKUoE20BcvnvsFtWOmGi5VoJAm+LPTOpPEYg5GxFzQwMr17mXT8zYcbs77/1JAXBBOMOgC1YcpH7xP/7lpwDwWfubQ41+rg6949gmYvtEsv0conLqrpOGILZ9ZtWJEo+p9g7bNr4Hm5WbjLQ0Jqk+LaOpExEo2Re47nRDM7RcgTZVA+PVraaXO6aG2oEo4Mveb0yuLAvc35QRCs2fxXT+5m9EJqZVaSM5L5ZvWQ69x+dtvjeJmHDJnOqDS6E/bLzYgNB0NyoXzOV3V2E81b2IubyvuLF09b470fTlPjU5znzWlQhVm9jR6tEtfVX51AHceVLEe7IaoS2aRtFfqJvihK4cokKqjjg02PBdKq8tDVr6mRJWXn2ThKy7XDaemfFVlMGT93spLMVitlo+gs=
